@@ -3,8 +3,8 @@ import CoreBluetooth
 import AsyncBluetooth
 import BoostBLEKit
 
-let serviceUuid = CBUUID(string: GATT.serviceUuid)
-let characteristicUuid = CBUUID(string: GATT.characteristicUuid)
+private let serviceUuid = CBUUID(string: GATT.serviceUuid)
+private let characteristicUuid = CBUUID(string: GATT.characteristicUuid)
 
 enum Port: UInt8 {
     case A
@@ -117,7 +117,7 @@ enum PeripheralError: Error {
     case characteristicNotFound
 }
 
-extension Peripheral {
+private extension Peripheral {
     
     func discoverCharacteristic() async throws -> Characteristic {
         try await discoverServices([serviceUuid])
