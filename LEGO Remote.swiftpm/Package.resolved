@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
+  "object" : {
+    "pins" : [
       {
-        "package": "AsyncBluetooth",
-        "repositoryURL": "https://github.com/bricklife/AsyncBluetooth",
-        "state": {
-          "branch": null,
-          "revision": "4b1e45b25efe70dc161f66d9eed60e987ed3fc1c",
-          "version": "1.0.0"
+        "package" : "AsyncBluetooth",
+        "repositoryURL" : "https://github.com/bricklife/AsyncBluetooth",
+        "state" : {
+          "revision" : "691b70f35a4488ffa4072f3bb0862d26fbdbbb7f",
+          "version" : "1.1.0"
         }
       },
       {
-        "package": "BoostBLEKit",
-        "repositoryURL": "https://github.com/bricklife/BoostBLEKit",
-        "state": {
-          "branch": null,
-          "revision": "04f0cb8284adbf972e19b93def9b23a1d98692be",
-          "version": "3.5.0"
+        "package" : "BoostBLEKit",
+        "repositoryURL" : "https://github.com/bricklife/BoostBLEKit",
+        "state" : {
+          "revision" : "04f0cb8284adbf972e19b93def9b23a1d98692be",
+          "version" : "3.5.0"
         }
       }
     ]
   },
-  "version": 1
+  "version" : 1
 }
