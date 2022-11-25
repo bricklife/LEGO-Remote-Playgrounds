@@ -2,8 +2,8 @@
 Swift Playgrounds 4で動くレゴ用Bluetoothリモコン
 
 ## 必要なもの
-- iPadOS 15.2がインストールされたiPad
-- [Swift Playgrounds 4](https://apps.apple.com/jp/app/swift-playgrounds/id1496833156?l=en&mt=12)
+- iPadOS 15.2以降がインストールされたiPad
+- [Swift Playgrounds](https://apps.apple.com/jp/app/swift-playgrounds/id1496833156?l=en&mt=12) バージョン4以降
 
 ## 使い方
 - iPadのWebブラウザで https://github.com/bricklife/LEGO-Remote-Playgrounds/releases/latest を開いて「Source code (zip)」をダウンロード
